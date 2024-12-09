@@ -1,8 +1,6 @@
 import {useState} from "react";
 import {deposit, withdraw} from "../actions/accountActions.js";
-import {store} from "../configureStore/store.js";
 import {useDispatch} from "react-redux";
-import {data} from "autoprefixer";
 import {putQuote} from "../actions/quoteAction.js";
 
 const Operation = () => {
